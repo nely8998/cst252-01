@@ -17,6 +17,24 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.center-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* IMAGE STYLING GOES HERE */
 #mediation-col img{
   border-radius: 50%;
