@@ -4,8 +4,15 @@
   margin-right: auto;
 }
 
+h1{
+  text-align:center;
+  font-family: 'PT serif', serif;
+}
+
 body {
   background-color: #F4F1EA;
+  text-align:center;
+  font-family: 'Roboto', serif;
 }
 
 .center-one {
