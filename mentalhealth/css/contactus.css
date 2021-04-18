@@ -5,17 +5,26 @@
 }
 h1{
   text-align:center;
-  color: #f5f5f5;
-  font-family: 'Shippori Mincho', serif;
+  font-family: 'PT serif', serif;
   font-size: 55px;
 }
 
 body {
   background-color: #F4F1EA;
+  font-family: 'Roboto', serif;
+}
+
+p{
+  font-family: 'Roboto', serif;
+  font-size: 20px;
 }
 
 div.w3-section {
   padding:10px;
   margin: 15px;
+<<<<<<< HEAD
   background-color: #F4F1EA;
   border: solid 5px ##F4F1EA;
+=======
+  border: solid 5px #b8ff96;
+>>>>>>> 90a22175515878103830b6d294ce06d9b4551023
