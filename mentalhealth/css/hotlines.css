@@ -10,15 +10,18 @@ body {
 
 h1{
   text-align:center;
+  font-family: 'PT serif', serif;
 }
 
 h2{
   text-align:center;
+  font-family: 'PT serif', serif;
 }
 
 h3 {
   font-size: 20px;
   text-align:center;
+  font-family: 'PT serif', serif;
 }
 
 hr{
@@ -37,4 +40,5 @@ img {
 
 p{
   text-align:center;
+  font-family: 'Roboto', serif;
 }
