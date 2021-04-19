@@ -4,17 +4,48 @@
   margin-right: auto;
 }
 
+#front h1{
+  font-size: 70px;
+}
+
+h1{
+  text-align:center;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
 body {
   background-color: #F4F1EA;
+  text-align:center;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+ .btn {
+  background-color: #DBC14A;
+  border: none;
 }
 
 .center-one {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* IMAGE STYLING GOES HERE */
