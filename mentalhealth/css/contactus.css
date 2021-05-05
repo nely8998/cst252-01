@@ -9,6 +9,14 @@ h1{
   font-size: 55px;
 }
 
+hr{
+  background-color: green;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body {
   background-color: #F4F1EA;
   font-family: 'PT serif', serif;
@@ -17,11 +25,22 @@ body {
 p{
   font-family: 'PT serif', serif;
   font-size: 20px;
+  color: black;
+}
+
+button {
+  opacity:1.0;
+  filter:alpha(opacity=60);
+}
+
+button:hover {
+  opacity:0.6;
+  filter:alpha(opacity=60);
 }
 
 div.w3-section {
-  padding:10px;
-  margin: 15px;
+  padding:0px;
+  margin: 0px;
 <<<<<<< HEAD
   background-color: #F4F1EA;
   border: solid 5px ##F4F1EA;
