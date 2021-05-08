@@ -3,9 +3,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 h1{
-  text-align:center;
   font-family: 'PT serif', serif;
+  text-align:center;
   font-size: 55px;
 }
 
