@@ -69,6 +69,26 @@ img {
   margin-left: 50px;
 }
 
+/*STYLING BANNER CONTENT */
+#banner-content h2{
+  font-size: 110px;
+  margin-top: 85px;
+  margin-left: 50px;
+}
+
+#banner-content p{
+  font-size: 27px;
+  margin-top: 85px;
+  margin-left: 50px;
+}
+
+#banner img {
+  width: 95%;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
 #zero img {
   width: 85%;
   height: 350px;
