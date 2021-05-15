@@ -18,6 +18,7 @@ h2{
   font-family: 'PT serif', serif;
 }
 
+
 h3 {
   font-size: 20px;
   text-align:left;
@@ -49,3 +50,5 @@ p{
   font-size: 15px;
   color:black;
   text-align:left;
+  font-family: 'Roboto', serif;
+}
