@@ -120,7 +120,7 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  background: none;
+  background-color: white;
   margin-bottom: 2rem;
 }
 
