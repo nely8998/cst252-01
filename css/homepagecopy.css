@@ -24,13 +24,14 @@ a {
 #spinnermiddle {
   height: 530px;
   width: 50%;
-  margin-top: 160px;
-  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 300px;
   position: relative;
 }
 #app {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   margin: 0 auto;
   position: relative;
 }
@@ -121,11 +122,7 @@ a {
   margin-bottom: 2rem;
 }
 
-.card img {
-  height: 400px;
-  margin-top: 130px;
-  margin-left: 50px;
-}
+
 
 /*STYLING BANNER CONTENT */
 #banner-content h2{
@@ -149,7 +146,7 @@ a {
 
 #zero img {
   width: 85%;
-  height: 350px;
+  height: 345px;
   margin-top: 130px;
   margin-left: 50px;
 }
@@ -160,19 +157,7 @@ a {
   margin-left: 50px;
 }
 
-#four img {
-  width: 75%;
-  height: 400px;
-  margin-top: 30px;
-  margin-left: 50px;
-}
 
-#five img {
-  width: 75%;
-  height: 400px;
-  margin-top: 30px;
-  margin-left: 50px;
-}
 
 .card > div {
   padding: 2rem;
