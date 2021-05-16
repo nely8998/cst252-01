@@ -3,6 +3,10 @@
   margin-left: auto;
   margin-right: auto;
 }
+a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
 
 body {
   background-color: #F4F1EA;
@@ -10,18 +14,18 @@ body {
 
 h1{
   text-align:center;
-  font-family: 'PT serif', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h2{
   text-align:center;
-  font-family: 'PT serif', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h3 {
   font-size: 20px;
   text-align:center;
-  font-family: 'PT serif', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 hr{
@@ -47,5 +51,5 @@ img:hover {
 
 p{
   text-align:center;
-  font-family: 'Roboto', serif;
+  font-family: 'Oswald', sans-serif;
 }

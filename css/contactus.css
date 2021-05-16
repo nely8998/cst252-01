@@ -4,6 +4,11 @@
   margin-right: auto;
 }
 
+a {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
 body {
   background-color: #F4F1EA;
 }

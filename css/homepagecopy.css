@@ -5,7 +5,11 @@
 }
 
 h1,h2,h2{
-  font-family: 'PT serif', serif;
+font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-size: 22px;
 }
 
 body {
@@ -13,12 +17,13 @@ body {
   background-color: #F4F1EA;
   background-repeat: no-repeat;
   font-size: 1rem;
-  font-family: 'Roboto', serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 a {
   color: #333;
   text-decoration: none;
+  font-size: 20px
 }
 
 #spinnermiddle {
