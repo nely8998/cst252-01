@@ -24,13 +24,14 @@ a {
 #spinnermiddle {
   height: 530px;
   width: 50%;
-  margin-top: 160px;
-  margin-left: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 300px;
   position: relative;
 }
 #app {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   margin: 0 auto;
   position: relative;
 }
