@@ -6,6 +6,8 @@
   </head>
   <body>
 
+<h1>Wellness.plant Quiz</h1>
+
 <br>
 
 1. If you suffer from mental/substance abuse illness, what is one of the first steps to self healing? <br>
@@ -17,53 +19,69 @@
 <br>
 
 2. How does a bad sleep schedule affect one's mental health over time? <br>
-<input type="radio" name="question 1"> Can lead to depression <br>
-<input type="radio" name="question 1"> Causes anxiety <br>
-<input type="radio" name="question 1"> Constant exhaustion <br>
-<input type="radio" name="question 1" id="correct2"> All of the above <br>
+<input type="radio" name="question 2"> Can lead to depression <br>
+<input type="radio" name="question 2"> Causes anxiety <br>
+<input type="radio" name="question 2"> Constant exhaustion <br>
+<input type="radio" name="question 2" id="correct2"> All of the above <br>
 
 <br>
 
 3. What is the recommeneded ammount of time someone should exercise each day? <br>
-<input type="radio" name="question 1"> 1 hour <br>
-<input type="radio" name="question 1"> 2 hours <br>
-<input type="radio" name="question 1" id="correct3"> 30 minutes <br>
-<input type="radio" name="question 1"> 10 minutes <br>
+<input type="radio" name="question 3"> 1 hour <br>
+<input type="radio" name="question 3"> 2 hours <br>
+<input type="radio" name="question 3" id="correct3"> 30 minutes <br>
+<input type="radio" name="question 3"> 10 minutes <br>
 
 <br>
 
 4. True or false? Mental/substance abuse illnesses can cause vitamin deficiencies. <br>
-<input type="radio" name="question 1" id="correct4"> True <br>
-<input type="radio" name="question 1"> False <br>
+<input type="radio" name="question 4" id="correct4"> True <br>
+<input type="radio" name="question 4"> False <br>
 
 <br>
 
-5. If you or a loved one is experiencing a mental health crisis, where should you reach out to?
-<input type="radio" name="question 1"> Ask your smartest friend <br>
-<input type="radio" name="question 1"> Call the police <br>
-<input type="radio" name="question 1" id="correct5"> Call the SAMHSA National Helpline <br>
-<input type="radio" name="question 1"> Seek out a hypnotist <br>
+5. If you or a loved one is experiencing a mental health crisis, where should you reach out to? <br>
+<input type="radio" name="question 5"> Ask your smartest friend <br>
+<input type="radio" name="question 5"> Call the police <br>
+<input type="radio" name="question 5" id="correct5"> Call the SAMHSA National Helpline <br>
+<input type="radio" name="question 5"> Seek out a hypnotist <br>
 
 <br>
 
-<input type="submit" name="submit" value="SubmitQuiz" onclick="results()">
+<input type="submit" name="submit" value="Submit Quiz" onclick="result()">
+
 <script type="text/javascript">
 
+function result() {
 
+	var score=0;
+
+  if (document.getElementById('correct1').checked)
+  {
+    score++;
+  }
+  if (document.getElementById('correct2').checked)
+  {
+    score++;
+  }
+  if (document.getElementById('correct3').checked)
+  {
+    score++;
+  }
+  if (document.getElementById('correct4').checked)
+  {
+    score++;
+  }
+  if (document.getElementById('correct5').checked)
+  {
+    score++;
+  }
+  document.getElementById('correct1')
+
+  alert("Your score is:"+score);
+
+}
 
 </script>
-
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
 </html>
